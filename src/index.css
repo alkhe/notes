@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./fonts/SourceCodeVariable-Roman.otf.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./fonts/SourceCodeVariable-Italic.otf.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos Headline';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./fonts/TiemposHeadline-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./fonts/TiemposText-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./fonts/TiemposText-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./fonts/TiemposText-RegularItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./fonts/TiemposText-SemiboldItalic.woff2') format('woff2');
+}
+
+
+html {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #1f1b4a;
+}
+
+body {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 40px 80px;
+  font-family: 'Tiempos Text';
+  font-size: 1.2em;
+  line-height: 1.7;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Tiempos Headline';
+}
+
+body > :not(h1):not(h2) {
+  margin: 2em 0;
+}
+
+/*
+p {
+  margin: 2em 0;
+}
+*/
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1em;
+  border-color: #dadbdf;
+  border-style: solid;
+  border-width: 1px;
+}
+
+thead th, thead td {
+  border-top-width: 0;
+}
+
+tbody > tr:last-child > th, tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+
+th:first-child, td:first-child {
+  border-left-width: 0;
+}
+
+th:last-child, td:last-child {
+  border-right-width: 0;
+}
+
+h1, h2 {
+  border-bottom: 1px solid #dadbdf;
+}
+
+h1 {
+  padding-bottom: 12px;
+}
+
+h2 {
+  padding-bottom: 8px;
+}
+
+svg path, svg rect {
+  stroke: #1f1b4a !important;
+}
+
+svg text {
+  fill: #1f1b4a !important;
+}
+
+blockquote svg path, blockquote svg rect {
+  stroke: #e7e7ec !important;
+}
+
+blockquote svg text {
+  fill: #e7e7ec !important;
+}
+
+blockquote {
+  background: #1f1b4a;
+  color: #e7e7ec;
+  margin: 2em 0;
+  padding: 2em;
+}
+
+blockquote th, blockquote td {
+  border-color: #3b3f82;
+}
+
+blockquote > h2:first-child {
+  margin-top: 0;
+}
+
