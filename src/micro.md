@@ -205,11 +205,11 @@ Aggregate demand and supply appear as *horizontal sums* on a demand and supply g
 
 The **producer reservation price** is the lowest price at which a producer is willing to sell one unit of good (at any less the sale would not be profitable). The **consumer reservation price** is the highest price a consumer is willing to pay for one unit of good (any more and the benefit would not be worth the money spent). In the demand and supply model, the producer reservation price and consumer reservation price are usually determined by the inverse supply and inverse demand functions.
 
-**Market equilibrium** is defined as the $(p^\ast, Q^\ast)$ such that $Q^\ast = D(p^\ast) = S(p^\ast)$, where $p^\ast$ is the **equilibrium price** and $Q^\ast$ is the **equilibrium quantity**. At equilibrium, the quantity demanded by consumers equals the quantity supplied by producers. This is the optimal state for a market in the demand and supply model.
+**Market equilibrium** is defined as the $(p^\ast, Q^\ast)$ such that $Q^\ast = D(p^\ast) = S(p^\ast)$, where $p^\ast$ is the **equilibrium price** and $Q^\ast$ is the **equilibrium quantity**. At equilibrium, the quantity demanded by consumers equals the quantity supplied by producers.
 
 At $p < p^\ast$, there is **excess demand** (producers willing to sell at $p < x \leq p^\ast$ do not participate), and at $p > p^\ast$, there is **excess supply** (consumers willing to buy at $p^\ast \leq x < p$ do not participate).
 
-**Producer surplus** is the total contribution (revenue minus variable costs) earned by producers in selling a good.
+**Producer surplus** is the total contribution (revenue minus variable costs) gained by producers in selling a good.
 ```math
 Q = min\{d(p),\:s(p)\}\newline
 PS = Qp - \int_0^Q s(Q) \:dQ
@@ -221,7 +221,7 @@ Q = min\{d(p),\:s(p)\}\newline
 CS = - Qp + \int_0^Q d(Q) \:dQ
 ```
 
-Try setting the price below and see how it affects surplus gained by each section of the market:
+Equilibrium is the optimal state for a market, because it maximizes total surplus. Try setting the price below and see how it affects surplus gained by each section of the market:
 
 {center
   <iframe src="https://www.desmos.com/calculator/qffvb0uqcd?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
