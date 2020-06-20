@@ -79,7 +79,7 @@ Each of you has an **absolute advantage** in producing one of the goods, because
   }
 }
 
-The PPF reveals a bit more information about a producer's circumstances. Focusing on your own production for now—notice the output possibilities $(0, 6)$ and $(4, 0)$ from before, as well as the points $(1, 4)$ and $(2, 2)$. These are called **production points**. Every point in the shaded region represents a possible or **attainable** production point, but only points lying on the frontier are desirable or **efficient**, because for every attainable production point below the frontier, there is an attainable production point that has more of one or both goods. Finally, production points beyond the frontier are **unattainable**.
+The PPF reveals a bit more information about a producer's circumstances. Focusing on your own production for now—notice the output possibilities $(0, 6)$ and $(3, 0)$ from before, as well as the points $(1, 4)$ and $(2, 2)$. These are called **production points**. Every point in the shaded region represents a possible or **attainable** production point, but only points lying on the frontier are desirable or **efficient**, because for every attainable production point below the frontier, there is an attainable production point that has more of one or both goods. Finally, production points beyond the frontier are **unattainable**.
 
 The slope of the PPF can tell us even more. On your PPF, the slope is $-2$ everywhere. This means that at any point, in order to clean one more room, you have to give up two dishes. Meanwhile, the slope of your roommate's PPF is $-\frac{1}{2}$; she only has to give up one dish for every two rooms cleaned. This is known as **opportunity cost**. Formally, the opportunity cost of a good is the value of that good in terms of the value of the *best alternative good*. Because it is derived from the slope of the PPF, opportunity cost also tells us how much we have to sacrifice to go from one efficient production point to another. We can rewrite our tables to show opportunity cost by dividing the output of each good *from* the output of its alternative in the output table, or dividing the input of each good *by* the input of its alternative in the input table:
 
@@ -89,7 +89,6 @@ The slope of the PPF can tell us even more. On your PPF, the slope is $-2$ every
   |-|-|-|
   |**You**|$\frac{1}{2}$ rooms|2 dishes|
   |**Roommate**|2 rooms|$\frac{1}{2}$ dishes|
-  Number of tasks completed, per *hour*
 }
 
 The producer with the lowest opportunity cost in a good has a **comparative advantage** in that good, because he or she has to give up the least opportunity to produce it.
@@ -121,7 +120,6 @@ Let's say you cut your hand while cooking yesterday, so you now require a cautio
   |-|-|-|
   |**You**|$\frac{3}{2}$ rooms|$\frac{2}{3}$ dishes|
   |**Roommate**|$\frac{2}{3}$ rooms|$\frac{3}{2}$ dishes|
-  Number of tasks completed, per *hour*
 }
 
 Inspecting each activity for its lowest opportunity cost entry, we find that you have a comparative advantage in cleaning while your roommate has a comparative advantage in cooking, despite her having an absolute advantage in both activities. Let's see what we can learn from the **economy-wide PPF**:
@@ -139,9 +137,9 @@ If you specialize according to your comparative advantages, you'll produce *effi
 
 How do we split up the work to produce at these points? Let's use $(3, 6)$ as a reference point. Because you, with the comparative advantage in cleaning, are already spending all your time on it, your roommate now has to divert some of her time to cleaning. Using her opportunity cost of $\frac{3}{2}$ dishes per room, we find that cleaning one more room indeed yields the production point $(4, 4.5)$.
 
-Note that the slope of the PPF on the interval $(0, 3)$ is $-\frac{2}{3}$, which represents your opportunity cost, while on the interval $(3, 7)$ it is $-\frac{3}{2}$, which represents your roommate's opportunity cost.
+Note that the slope of the PPF on the interval $(0, 3)$ is $-\frac{2}{3}$, which corresponds to your opportunity cost, while on the interval $(3, 7)$ it is $-\frac{3}{2}$, which corresponds to your roommate's opportunity cost.
 
-In general, an economy that wants to maximize overall production under the constraint of producing a set amount of one particular good will assign to it the *lowest opportunity cost available* producers in that good until the constraint is met. This is in fact one method by which the PPF is constructed. If we sacrificed your roommate's cooking first, the PPF would look like the dotted curve below, which misses a large (and important!) portion of the attainable production points.
+In general, an economy that wants to maximize overall production under the constraint of producing a set amount of one particular good will assign to that good the *lowest opportunity cost available* producers in that good until the constraint is met. This is in fact one method by which the PPF is constructed. If we sacrificed your roommate's cooking first, the PPF would look like the dotted curve below, which misses a large (and important!) portion of the attainable production points.
 
 {center
   <iframe src="https://www.desmos.com/calculator/iv5trzasra?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -205,19 +203,20 @@ Aggregate demand and supply appear as *horizontal sums* on a demand and supply g
 
 The **producer reservation price** is the lowest price at which a producer is willing to sell one unit of good (at any less the sale would not be profitable). The **consumer reservation price** is the highest price a consumer is willing to pay for one unit of good (any more and the benefit would not be worth the money spent). In the demand and supply model, the producer reservation price and consumer reservation price are usually determined by the inverse supply and inverse demand functions.
 
-**Market equilibrium** is defined as the $(p^\ast, Q^\ast)$ such that $Q^\ast = D(p^\ast) = S(p^\ast)$, where $p^\ast$ is the **equilibrium price** and $Q^\ast$ is the **equilibrium quantity**. At equilibrium, the quantity demanded by consumers equals the quantity supplied by producers.
-
-At $p < p^\ast$, there is **excess demand** (producers willing to sell at $p < x \leq p^\ast$ do not participate), and at $p > p^\ast$, there is **excess supply** (consumers willing to buy at $p^\ast \leq x < p$ do not participate).
-
-**Producer surplus** is the total contribution (revenue minus variable costs) gained by producers in selling a good.
+In a market, the total amount of goods sold is the smaller value of the quantity demanded and the quantity supplied, because only when both producers want to sell and consumers want to buy will any transaction be made. This is known as **quantity transacted**:
 ```math
-Q = min\{d(p),\:s(p)\}\newline
+Q = min\{D(p),\:S(p)\}
+```
+
+When the quantity demanded by consumers is equal to the quantity supplied by producers, we have a **market equilibrium**. It is defined as the $(p^\ast, Q^\ast)$ such that $D(p^\ast) = S(p^\ast) = Q^\ast$, where $p^\ast$ is the **equilibrium price** and $Q^\ast$ is the **equilibrium quantity**. At equilibrium, there are no unsatisfied agents in the market, as consumers make their desired number of purchases and producers make their desired number of sales. At $p < p^\ast$, there is **excess demand** (producers willing to sell at $p < x \leq p^\ast$ do not participate), and at $p > p^\ast$, there is **excess supply** (consumers willing to buy at $p^\ast \leq x < p$ do not participate).
+
+**Producer surplus** is the total contribution (revenue minus variable costs) gained by all producers in selling a good.
+```math
 PS = Qp - \int_0^Q s(Q) \:dQ
 ```
 
-**Consumer surplus** is the net benefit gained by consumers in purchasing a good.
+**Consumer surplus** is the net benefit gained by all consumers in purchasing a good.
 ```math
-Q = min\{d(p),\:s(p)\}\newline
 CS = - Qp + \int_0^Q d(Q) \:dQ
 ```
 
